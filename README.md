@@ -27,8 +27,8 @@ The project uses a Deep Q-Network (DQN) agent to learn optimal traffic light con
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone "https://github.com/Melsa16/Traffic-Light-Control-using-Reinforcement-Learning.git"
+cd Traffic-Light-Control-using-Reinforcement-Learning
 ```
 
 2. Install SUMO:
@@ -45,8 +45,6 @@ pip install -r requirements.txt
   - `traffic_light_control.py` - Core implementation of the DQN agent and traffic control
   - `static_waiting_time.py` - Static traffic control implementation
   - Configuration files for SUMO simulation
-- `new/` - Additional configuration files
-- `FML Project Paper.pdf` - Project documentation and methodology
 
 ## Usage
 
